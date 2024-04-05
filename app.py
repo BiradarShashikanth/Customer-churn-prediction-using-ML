@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score
